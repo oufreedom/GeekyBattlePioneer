@@ -122,6 +122,12 @@ module.exports = function (grunt) {
                 'test/spec/{,*/}*.js'
             ]
         },
+        jasmine: {
+            src: '<%= yeoman.app %>/scripts/{,*/}*.js',
+            options: {
+                specs: 'test/spec/{,*/}*.js'
+            }
+        },
         mocha: {
             all: {
                 options: {
@@ -362,6 +368,7 @@ module.exports = function (grunt) {
         'concurrent:test',
         'autoprefixer',
         'connect:test',
+        'jasmine',
         'mocha'
     ]);
 
