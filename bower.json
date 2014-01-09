@@ -1,0 +1,9 @@
+{
+  "name": "geekybattlepioneer",
+  "version": "0.0.0",
+  "dependencies": {
+    "modernizr": "~2.6.2",
+    "foundation": "~5.0.2"
+  },
+  "devDependencies": {}
+}
