@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$('document').ready(function() {
   // Handler for .ready() called.
   console.log('\'Allo \'Allo!');
 
